@@ -29,7 +29,7 @@ The NPPES dataset contains a large number of fields, only a few of which are rel
 
 Next, download the taxonomy code to classification crosswalk from the National Uniform Claim Committee (https://www.nucc.org/index.php/code-sets-mainmenu-41/provider-taxonomy-mainmenu-40/csv-mainmenu-57). Using the primary taxonomy code, match each provider to a classification (from the Classification column).
 
-Finally, you need the Zip code to CBSA crosswalk from here: https://www.huduser.gov/portal/datasets/usps_crosswalk.html. Match each provider to a CBSA using the Business Zip code. Note that the zipcodes in the nppes dataset are either 5 or 9 digits, and be mindful that leading zeros might be dropped when reading the dataset into a dataframe.
+Finally, you need the Zip code to CBSA crosswalk from here: https://www.huduser.gov/portal/datasets/usps_crosswalk.html. Match each provider to a CBSA using the Business Zip code. Note that the zipcodes in the nppes dataset are either 5 or 9 digits, and be mindful that leading zeros might be dropped when reading the dataset into a dataframe. This can be used if you want to filter to providers just in the Nashville CBSA. 
 
 Tasks:
 * First, build a profile of providers referring patients to the major hospitals in Nashville. Are certain specialties more likely to refer to a particular hospital over the others?
